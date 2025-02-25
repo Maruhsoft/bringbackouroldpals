@@ -97,7 +97,7 @@ function App() {
               { name: 'Halima', emoji: '🌟', delay: 0.2 },
               { name: 'Ruth', emoji: '✨', delay: 0.4 },
               { name: 'Charles', emoji: '🌠', delay: 0.6 },
-              { name: 'Promise', emoji: '💫', delay: 0.8 }
+              { name: 'Promise', emoji: '💫', delay: 0.8 },
               { name: 'Others', emoji: '❤️', delay: 1.0 }
             ].map((item, index) => (
               <FloatingName key={index} {...item} />
