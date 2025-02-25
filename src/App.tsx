@@ -42,31 +42,31 @@ function App() {
   const memories = [
     {
       title: 'First Day Jitters',
-      description: 'Remember those nervous first steps through the gates? The way Mrs. Johnson welcomed us with her warm smile...',
+      description: 'Remember those nervous first steps through the gates? Introducing you as a new comer to ther rest of the class...',
       imageUrl: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800'
     },
     {
       title: 'Sports Day Glory',
-      description: 'Our class dominated every event! Still can hear the cheers echoing across the field.',
+      description: 'Remember when your house (colour) dominated an event?! Still can hear the cheers echoing across the field.',
       imageUrl: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800'
     },
     {
       title: 'Science Fair Brilliance',
-      description: 'Breaking records with our innovative projects. Remember that volcano that actually worked?',
+      description: 'Breaking records with our innovative projects. Remember the amazing assembly presentations?',
       imageUrl: 'https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?auto=format&fit=crop&w=800'
     },
     {
-      title: 'Drama Club Performance',
-      description: 'Our unforgettable rendition of "Romeo and Juliet" - complete with that infamous falling curtain!',
+      title: 'SS3 Relationships',
+      description: 'Our unforgettable rendition of "Romeo and Juliet"!',
       imageUrl: 'https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?auto=format&fit=crop&w=800'
     },
     {
-      title: 'Library Adventures',
-      description: 'Those lunch breaks spent discovering new worlds between pages, hiding from the prefects.',
+      title: 'Intellectual Adventures',
+      description: 'Those lunch breaks spent discovering new worlds between pages.',
       imageUrl: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800'
     },
     {
-      title: 'Graduation Day',
+      title: 'Graduation Day (2011)',
       description: 'Tears, laughter, and promises to stay in touch forever. Time to reconnect and fulfill those promises.',
       imageUrl: 'https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=800'
     }
@@ -98,6 +98,7 @@ function App() {
               { name: 'Ruth', emoji: '✨', delay: 0.4 },
               { name: 'Charles', emoji: '🌠', delay: 0.6 },
               { name: 'Promise', emoji: '💫', delay: 0.8 }
+              { name: 'Others', emoji: '❤️', delay: 1.0 }
             ].map((item, index) => (
               <FloatingName key={index} {...item} />
             ))}
